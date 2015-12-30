@@ -37,6 +37,7 @@ public class Main {
 
 	}
 
+	@SuppressWarnings("unused")
 	private static void creatBat(final GameField field) {
 		field.createCell(new Cell(41, 46));
 		field.createCell(new Cell(41, 45));
@@ -106,6 +107,7 @@ public class Main {
 		return new GameEngine(field, ruleSetForDead, ruleSetForAlive);
 	}
 
+	@SuppressWarnings("unused")
 	private static GameEngine createCopyWorld(final GameField field) {
 		final RuleSet ruleSetForAlive = new RuleSet();
 		ruleSetForAlive.addRule(0, EGameAction.CELL_DIE);
