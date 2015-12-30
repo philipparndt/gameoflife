@@ -8,3 +8,5 @@ Game of life coding kata with a simple SWT UI
 ### Predefined setups
 - Gospers glider gun
 - Bat (this will generate a smiling bat in generation 87)
+
+![logo](https://github.com/ggsm/gameoflife/blob/master/gameoflife_bat.png)
