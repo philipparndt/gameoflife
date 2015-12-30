@@ -1,2 +1,2 @@
 # gameoflife
-game of life implementation with a simple SWT UI
+Game of life coding kata with a simple SWT UI
