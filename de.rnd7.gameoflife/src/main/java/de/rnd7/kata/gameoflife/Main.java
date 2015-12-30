@@ -30,14 +30,13 @@ public class Main {
 		final GameEngine engine = createConwayWorld(field);
 		// final GameEngine engine = createCopyWorld(field);
 
-		// creatBat(field);
-		createGospersGliderGun(field);
+		creatBat(field);
+		// createGospersGliderGun(field);
 
 		new GameDialog(engine);
 
 	}
 
-	@SuppressWarnings("unused")
 	private static void creatBat(final GameField field) {
 		field.createCell(new Cell(41, 46));
 		field.createCell(new Cell(41, 45));
@@ -48,6 +47,7 @@ public class Main {
 		field.createCell(new Cell(42, 47));
 	}
 
+	@SuppressWarnings("unused")
 	private static void createGospersGliderGun(final GameField field) {
 		field.createCell(new Cell(8, 8));
 		field.createCell(new Cell(43, 6));
