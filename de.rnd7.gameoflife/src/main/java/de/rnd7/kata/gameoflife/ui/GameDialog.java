@@ -21,10 +21,7 @@ import de.rnd7.kata.gameoflife.model.GameField;
 
 public class GameDialog {
 
-	private final GameEngine engine;
-
 	public GameDialog(final GameEngine engine) {
-		this.engine = engine;
 		final Display display = new Display();
 		final Shell shell = new Shell(display);
 
